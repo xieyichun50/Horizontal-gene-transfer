@@ -23,7 +23,7 @@ awk -F$'\t' '($2 > 1){print}' fastacount | cut -f1 > IDlist2orthofinder
 ```
 sh 4orthofinder.sh
 ```
-#Visualise the gene order and orthologues relationship
+#### Visualise the gene order and orthologues relationship
 ```
 sh 5gggenes_orthofinder.sh #(batch run 5gggenes_orthofinder.R)
 ```
